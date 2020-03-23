@@ -2,7 +2,7 @@
 
 ## Build docker image
 
-At first, you need to install [Jetpack 4.2.1](https://developer.nvidia.com/embedded/jetpack) for Jetson Nano.
+At first, you need to install [Jetpack 4.3.1](https://developer.nvidia.com/embedded/jetpack) for Jetson Nano.
 
 Next, set **nvidia runtime** as default for Your docker daemon.
 
