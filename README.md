@@ -2,7 +2,8 @@
 
 ## Build docker image
 
-At first, you need to install [Jetpack 4.3.1](https://developer.nvidia.com/embedded/jetpack) for Jetson Nano.
+Obviously, the mandatory step to use the container is to flash L4T on the SD-card. Afterward JetPack can be added - or NOT! - it will work **with & without** extra packages.
+At first, you may install [Jetpack 4.3.1](https://developer.nvidia.com/embedded/jetpack) for Jetson Nano.
 
 Next, set **nvidia runtime** as default for Your docker daemon.
 
