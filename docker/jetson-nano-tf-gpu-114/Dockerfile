@@ -1,4 +1,5 @@
 FROM nvcr.io/nvidia/l4t-base:r32.3.1
+LABEL MAINTAINER: Etienne LEROY
 RUN apt-get update -y 
 RUN apt-get install python3-pip -y 
 RUN pip3 install -U pip
