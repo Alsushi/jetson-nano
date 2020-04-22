@@ -11,6 +11,8 @@ RUN pip3 install --pre --extra-index-url https://developer.download.nvidia.com/c
 # freetype2 dependancies
 RUN apt-get install libpng-tools libpng16-16 libpng-dev
 # matplotlib dependancies freetype2 headers
+RUN wget http://ftp.de.debian.org/debian/pool/main/f/freetype/libfreetype6_2.9.1-3+deb10u1_arm64.deb
+RUN dpkg -i libfreetype6_2.9.1-3+deb10u1_arm64.deb
 RUN wget http://ftp.de.debian.org/debian/pool/main/f/freetype/libfreetype6-dev_2.9.1-3+deb10u1_arm64.deb
 RUN dpkg -i libfreetype6-dev_2.9.1-3+deb10u1_arm64.deb
 # TF tutorial packages
