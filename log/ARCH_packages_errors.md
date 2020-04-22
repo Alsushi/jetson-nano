@@ -17,13 +17,13 @@
 ERROR: Command errored out with exit status 1: /usr/bin/python3 -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-o1wclrf1/matplotlib/setup.py'"'"'; __file__='"'"'/tmp/pip-install-o1wclrf1/matplotlib/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record /tmp/pip-record-3wuf43fk/install-record.txt --single-version-externally-managed --compile --install-headers /usr/local/include/python3.6/matplotlib Check the logs for full command output.
 ```
 1.1.1 pip3 install freetype2
+```python
 ERROR: Could not find a version that satisfies the requirement freetype2 (from versions: none)
 ERROR: No matching distribution found for freetype2
-installfr
+```
 
 1.1.2 apt install libfreetype6
 ```bash
-:/# apt install libfreetype6
 Reading package lists... Done
 Building dependency tree       
 Reading state information... Done
