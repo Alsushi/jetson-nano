@@ -43,3 +43,8 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>> print(ts.__version__)
 1.13.1
 ```
+
+---
+#### Warning: 
+
+[Using WSL2 will lead to serious performance issues!!!](https://github.com/microsoft/WSL/issues/4197) 
